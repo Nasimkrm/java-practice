@@ -17,13 +17,21 @@ public class Main {
 //        while (i < 10);
 
 
-        do {
+//        do {
+//            System.out.println("i = " + i);
+//            System.out.println("j = " + j);
+//
+//            i++;
+//            j--;
+//        } while (j > 0 && i < 10);
+
+       while (j > 0 && i < 10) {
             System.out.println("i = " + i);
             System.out.println("j = " + j);
 
             i++;
             j--;
-        } while (j > 0 && i < 10);
+        } ;
 
     }
 }
