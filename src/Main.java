@@ -33,13 +33,23 @@ public class Main {
 //            i++;
 //            j--;
 //        } ;
+//
+//        while (i < 10) {
+//            sum += i;
+//
+//            System.out.println("sum = " + sum);
+//
+//            i++;
+//        }
+//
 
-        while (i < 10) {
+        do {
             sum += i;
 
-            System.out.println("sum = " + sum);
+            System.out.println("Sum = " + sum);
 
             i++;
-        }
+        } while (i < 10);
+
     }
 }
